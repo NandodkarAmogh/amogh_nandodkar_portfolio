@@ -13,19 +13,20 @@ h1{
 /* {
 color: gray;
 } */ 
-
-
+/* #D97706 */
+/* #E5E7EB */
 /* typography */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
 :root{
-    --primary-color: #D97706;
-    --dark-gray: #6B7280;
-    --off-white: #E5E7EB;
+    --primary-color:#2a6592;
+    --dark-gray:#7e9a9a;
+    --off-white:#EDE9FE;
 }
 
 body{
     font-family: 'Open Sans', sans-serif;
+    margin: 0px;
 }
 
 hr{
@@ -66,6 +67,7 @@ hr{
     display: block;
     max-width: 140px;
     margin: 1rem 1rem 1rem 0rem;
+
 }
 /* lists */
 
@@ -89,7 +91,7 @@ border-bottom-left-radius: 1rem;
 
 .navigation .nav-brand{
     font-weight:bold;
-    font-size: 1.2rem;
+    font-size: 2rem;
 }
 .navigation .nav-pills{
     text-align: right;
@@ -101,6 +103,90 @@ border-bottom-left-radius: 1rem;
 .navigation .link-active{
     font-weight: bold;
 }
+/* ABOUT */
+
+ .avatar-user {
+    /border-radius: 50%!important; 
+    /* padding: 20rem 18rem; */
+}
+.avatar {
+     bottom: 0;
+    height: 100%;
+    left: 0;
+    /* margin: auto;  */
+    max-width: 200px;
+    /* padding: 28rem 26rem;  */
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    margin-left: 12rem; 
+    margin-top: 15rem;
+    /* /* text-align: center; */
+    /* padding-top: 24rem; 
+    padding-right: 30rem; */
+    padding: 12rem 30rem; 
+}
+
+.avatar .avatar-user  .color-bg-primary {
+    background-color:var(--primary-color)!important;
+    margin: auto;
+    padding: 1rem;  
+}
+
+.MuiTypography-h1 {
+    font-size: 6rem;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 300;
+    line-height: 1.167;
+    letter-spacing: -0.01562em;
+    color: var(--dark-gray);
+    padding-left: 28rem;
+    text-align: center;
+}
+
+.MuiTypography-root {
+    margin: 0;
+    ;
+}
+
+.MuiTypography-h4 .jss15 {
+    font-size: 1.5rem;
+    padding-left: 26rem;
+    padding-top: 27rem;
+}
+
+/* .jss14 {
+    font-size: 4rem;
+    margin-top: 30px;
+    font-family: "Nunito", "Roboto", "Helvetica", "Arial", sans-serif;
+    margin-bottom: 10px;
+    padding-left: 18rem;
+} */
+
+
+.jss13 { 
+     color: var(--primary-color); 
+}
+
+.MuiTypography-h4 {
+    font-size: 2.125rem;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 400;
+    line-height: 1.235;
+    letter-spacing: 0.00735em;
+    /* padding-left: 22rem; */
+    padding-top: 18rem;
+    text-align: center;
+}
+    
+}
+
+.heading{
+    color: var(--dark-gray);
+}
+
+
 
 /* header */
 
@@ -150,10 +236,19 @@ border-bottom-left-radius: 1rem;
     border-top-right-radius: 1rem   ;
 }
 
+.footer .footer-header{
+   font-weight: bold;
+   font-size: large; 
+}
+
 .footer .link{
     color:white
 }
 
 .footer ul{
     padding-inline-start:0px;
+}
+
+.font{
+ font-family: 'Krona One', sans-serif;
 }
