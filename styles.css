@@ -44,11 +44,20 @@ hr{
     margin: auto;
 }
 
+.container-about{
+    color: var(--primary-color);
+}
+
 /* links */
 .link {
     box-sizing: border-box;
     text-decoration: none;
     padding: 0.5rem 1rem;
+}
+
+.link-about{
+    color: var(--primary-color);
+    text-decoration: none;
 }
 
 .link-primary {
@@ -180,7 +189,7 @@ border-bottom-left-radius: 1rem;
     text-align: center;
 }
     
-}
+
 
 .heading{
     color: var(--dark-gray);
