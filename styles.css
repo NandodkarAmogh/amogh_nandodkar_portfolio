@@ -104,33 +104,34 @@ border-bottom-left-radius: 1rem;
 /* ABOUT */
 
  .avatar-user {
-    border-radius: 50%!important; 
+    border-radius: 100%!important; 
     /* padding: 20rem 18rem; */
 }
 .avatar {
-     bottom: 0;
+     /* bottom: 0;
     height: 100%;
     left: 0;
     margin: auto; 
     max-width: 200px;
     /* padding: 28rem 26rem;  */
-    position: absolute;
+    /* position: absolute;
     right: 0;
     top: 0;
     width: 100%;
-    /* margin-left: 12rem; 
-    margin-top: 15rem; */
-    /* /* text-align: center; */
-    padding-top: 14rem; 
-    /* padding-right: 30rem; */
-    /* padding: 12rem 30rem;  */
+    padding-top: 14rem;  */ 
+    max-width: 300px;
+    display: block;
+    margin: auto;
+    /* padding-left: 10rem; */
+   
+
 }
 
-.avatar .avatar-user .color-bg-primary {
+/* .avatar .avatar-user .color-bg-primary {
     background-color:var(--primary-color)!important;
     margin: auto;
     padding: 1rem;  
-}
+} */
 
 .MuiTypography-h1 {
     font-size: 4rem;
@@ -138,9 +139,7 @@ border-bottom-left-radius: 1rem;
     font-weight: 300;
     line-height: 1.167;
     letter-spacing: -0.01562em;
-    color: var(--dark-gray);
-    /* padding:15% 25%;  */
-    text-align: center;
+    
 }
 
 .MuiTypography-root {
@@ -150,8 +149,8 @@ border-bottom-left-radius: 1rem;
 
 .MuiTypography-h4 .jss15 {
     font-size: 1.5rem;
-    padding-left: 26rem;
-    padding-top: 27rem;
+    /* padding-left: 26rem;
+    padding-top: 27rem; */
 }
 
 /* .jss14 {
@@ -174,7 +173,7 @@ border-bottom-left-radius: 1rem;
     line-height: 1.235;
     letter-spacing: 0.00735em;
     /* padding-left: 22rem; */
-    padding-top: 18rem;
+    padding: 2rem;
     text-align: center;
 }
 
