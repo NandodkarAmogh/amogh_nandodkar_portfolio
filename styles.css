@@ -115,26 +115,26 @@ border-bottom-left-radius: 1rem;
 /* ABOUT */
 
  .avatar-user {
-    /border-radius: 50%!important; 
+    border-radius: 50%!important; 
     /* padding: 20rem 18rem; */
 }
 .avatar {
      bottom: 0;
     height: 100%;
     left: 0;
-    /* margin: auto;  */
-    max-width: 200px;
+    margin: 0; 
+    /* max-width: 200px; */
     /* padding: 28rem 26rem;  */
     position: absolute;
     right: 0;
     top: 0;
-    width: 100%;
-    margin-left: 12rem; 
-    margin-top: 15rem;
+    /* width: 50%; */
+    /* margin-left: 12rem; 
+    margin-top: 8rem; */
     /* /* text-align: center; */
-    /* padding-top: 24rem; 
-    padding-right: 30rem; */
-    padding: 12rem 30rem; 
+     padding: 70% 30%;  
+    /* padding-right: 30rem;  */
+    /* padding: 12rem 30rem;  */
 }
 
 .avatar .avatar-user  .color-bg-primary {
@@ -144,19 +144,19 @@ border-bottom-left-radius: 1rem;
 }
 
 .MuiTypography-h1 {
-    font-size: 6rem;
+    font-size: 4rem;
     font-family: "Roboto", "Helvetica", "Arial", sans-serif;
     font-weight: 300;
     line-height: 1.167;
     letter-spacing: -0.01562em;
     color: var(--dark-gray);
-    padding-left: 28rem;
+    /* padding-left: 8rem; */
     text-align: center;
 }
 
 .MuiTypography-root {
     margin: 0;
-    ;
+    
 }
 
 .MuiTypography-h4 .jss15 {
