@@ -4,11 +4,9 @@
 h1{
     color : green;
 }
-
 #lib-header{
     color:blue;
 }
-
  .para  /* for class  */
 /* {
 color: gray;
@@ -44,20 +42,11 @@ hr{
     margin: auto;
 }
 
-.container-about{
-    color: var(--primary-color);
-}
-
 /* links */
 .link {
     box-sizing: border-box;
     text-decoration: none;
     padding: 0.5rem 1rem;
-}
-
-.link-about{
-    color: var(--primary-color);
-    text-decoration: none;
 }
 
 .link-primary {
@@ -122,22 +111,22 @@ border-bottom-left-radius: 1rem;
      bottom: 0;
     height: 100%;
     left: 0;
-    margin: 0; 
-    /* max-width: 200px; */
+    margin: auto; 
+    max-width: 200px;
     /* padding: 28rem 26rem;  */
     position: absolute;
     right: 0;
     top: 0;
-    /* width: 50%; */
+    width: 100%;
     /* margin-left: 12rem; 
-    margin-top: 8rem; */
+    margin-top: 15rem; */
     /* /* text-align: center; */
-     padding: 70% 30%;  
-    /* padding-right: 30rem;  */
+    padding-top: 14rem; 
+    /* padding-right: 30rem; */
     /* padding: 12rem 30rem;  */
 }
 
-.avatar .avatar-user  .color-bg-primary {
+.avatar .avatar-user .color-bg-primary {
     background-color:var(--primary-color)!important;
     margin: auto;
     padding: 1rem;  
@@ -150,13 +139,13 @@ border-bottom-left-radius: 1rem;
     line-height: 1.167;
     letter-spacing: -0.01562em;
     color: var(--dark-gray);
-    /* padding-left: 8rem; */
+    /* padding:15% 25%;  */
     text-align: center;
 }
 
 .MuiTypography-root {
-    margin: 0;
-    
+    margin: auto;
+    ;
 }
 
 .MuiTypography-h4 .jss15 {
@@ -188,7 +177,7 @@ border-bottom-left-radius: 1rem;
     padding-top: 18rem;
     text-align: center;
 }
-    
+
 
 
 .heading{
@@ -207,7 +196,7 @@ border-bottom-left-radius: 1rem;
     max-width: 400px;
     display: block;
     margin: auto;
-    
+
 }
 
 .hero .hero-heading{
