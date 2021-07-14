@@ -42,6 +42,10 @@ hr{
     margin: auto;
 }
 
+.container-about{
+    color:var(--primary-color);
+}
+
 /* links */
 .link {
     box-sizing: border-box;
@@ -123,7 +127,8 @@ border-bottom-left-radius: 1rem;
     display: block;
     margin: auto;
     /* padding-left: 10rem; */
-   
+   background-color: var(--primary-color);
+
 
 }
 
@@ -163,9 +168,11 @@ border-bottom-left-radius: 1rem;
 
 
 .jss13 { 
-     color: var(--primary-color); 
+     color: var(--dark-gray); 
 }
-
+.jss12{
+    color:var(--primary-color);
+}
 .MuiTypography-h4 {
     font-size: 2.125rem;
     font-family: "Roboto", "Helvetica", "Arial", sans-serif;
